@@ -7,3 +7,7 @@ export const IPV4 = /^((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)(\.(?!$)|$)){4}$/i;
 export const EMAIL = /([-!#-'*+-9=?A-Z^-~]+(\.[-!#-'*+-9=?A-Z^-~]+)*|"([]!#-[^-~ \t]|(\\[\t -~]))+")@[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)+/i;
 
 export const PHONE_NUMBER_TUR = /(\+9)?(05)(\d{2})(\d{3})(\d{4})/i;
+
+export const FILE_NAME = /[\w\-\s]+\.[\w]+/i;
+
+export const FILE_NAME_TUR = /[\w\-\sğĞüÜşŞıİöÖçÇ]+\.[\w]+/i;
