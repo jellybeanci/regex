@@ -10,6 +10,6 @@ export const EMAIL = /([-!#-'*+-9=?A-Z^-~]+(\.[-!#-'*+-9=?A-Z^-~]+)*|"([]!#-[^-~
 
 export const PHONE_NUMBER_TUR = /(\+9)?(05)(\d{2})(\d{3})(\d{4})/i;
 
-export const FILE_NAME = /[\w\s\-]+\.[\w]+/i;
+export const FILE_NAME = /([\w\s\-]+)\.([\w]+)/i;
 
-export const FILE_NAME_TUR = /[\w\s\-ğĞüÜşŞıİöÖçÇ]+\.[\w]+/i;
+export const FILE_NAME_TUR = /([\w\s\-ğĞüÜşŞıİöÖçÇ]+)\.([\w]+)/i;
