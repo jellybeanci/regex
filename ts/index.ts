@@ -8,8 +8,9 @@ export const IPV6 = /^\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-F
 
 export const EMAIL = /([-!#-'*+-9=?A-Z^-~]+(\.[-!#-'*+-9=?A-Z^-~]+)*|"([]!#-[^-~ \t]|(\\[\t -~]))+")@[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)+/i;
 
-export const PHONE_NUMBER_TUR = /(\+9)?(05)(\d{2})(\d{3})(\d{4})/i;
-
 export const FILE_NAME = /([\w\s\-]+)\.([\w]+)/i;
 
-export const FILE_NAME_TUR = /([\w\s\-ğĞüÜşŞıİöÖçÇ]+)\.([\w]+)/i;
+export const TUR = Object.freeze({
+  PHONE_NUMBER: /(\+9)?(05)(\d{2})(\d{3})(\d{4})/i,
+  FILE_NAME: /([\w\s\-ğĞüÜşŞıİöÖçÇ]+)\.([\w]+)/i
+});
